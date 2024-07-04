@@ -4,11 +4,11 @@
 }
 
 .main-container button {
-  background-color: var(--button-color) !important;
+  background-color: var(--button-color);
   border: none;
   outline: none;
-  margin: auto;
   color: var(--text-color);
   padding: 8px;
   border-radius: 5px;
+  width: 100px;
 }

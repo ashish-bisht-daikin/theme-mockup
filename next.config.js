@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/theme-mockup",
   output: "export",
+  experimental: {
+    serverActions: true,
+  },
 };
 
 module.exports = nextConfig;
