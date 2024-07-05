@@ -20,6 +20,7 @@ export default function Home() {
     <main className="main-container min-h-screen flex items-center justify-around">
       {techCompanies?.map((company) => (
         <CommonButton
+          key={company?.name}
           text={company?.name}
           onClick={() => themeHandler(company)}
           bgColor={company?.light?.backgroundColor}
