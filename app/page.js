@@ -1,5 +1,5 @@
 "use client";
-import { techCompanies } from "@/app/constants";
+import { techCompanies } from "@/app/constants/index";
 import { useRouter } from "next/navigation";
 import CommonButton from "./components/ui/CommonButton";
 import { setCookie } from "./helpers";
